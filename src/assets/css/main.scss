@@ -1,2 +1,6 @@
 $primary: #12283f;
 @import '~bulma/bulma';
+body {
+    --second: #{$primary}aa;
+}
+body::-webkit-scrollbar {display: none}
