@@ -1,5 +1,5 @@
 <template>
-    <div id="theskills" class="hero is-black is-fullheight">
+    <div id="footer" class="hero is-black is-fullheight">
         <div class="hero-body is-primary is-multiline" style="margin: auto">
             <!-- <h1 class="title" style="margin:auto"></h1> -->
             <div class="notification is-black" style="margin:auto">
@@ -24,6 +24,9 @@
                     <a class="button is-dark" target="_blank" href="mail://imsamtar@gmail.com">
                         <i class="far fa-envelope"></i>
                         &nbsp;&nbsp;Email</a>
+                    <a class="button is-dark" href="#">
+                        <i class="fas fa-arrow-up"></i>
+                        &nbsp;&nbsp;Top</a>
                 </div>
             </div>
         </div>
@@ -51,7 +54,7 @@
 }
 #links {
     display: grid !important;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 #links > a {
