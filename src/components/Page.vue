@@ -2,13 +2,15 @@
     <div id="theskills" class="hero is-primary is-fullheight">
         <div class="hero-body is-primary is-multiline" style="margin: auto">
             <page-title></page-title>
-            <div class="card is-light" v-for="i in 6" :key="i">
-                <div class="card-content">
-                    <s="subtitle has-text-primary" style="opacity:0.8">A hypertext markup language</p>
-                    <p class="has-texth1 class="title has-text-primary">HTML5</h1>
-                    <p clas-primary" style="opacity: 0.7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, veritatis!</p>
+            <slot>
+                <div class="card is-light" v-for="i in 6" :key="i">
+                    <div class="card-content">
+                        <h1 class="title has-text-primary">HTML5</h1>
+                        <p class="subtitle has-text-primary" style="opacity:0.8">A hypertext markup language</p>
+                        <p class="has-text-primary" style="opacity: 0.7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, veritatis!</p>
+                    </div>
                 </div>
-            </div>
+            </slot>
             <page-next></page-next>
         </div>
     </div>

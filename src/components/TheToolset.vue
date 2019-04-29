@@ -1,30 +1,17 @@
 <template>
     <div id="theskills" class="hero is-primary is-fullheight">
         <div class="hero-body is-primary is-multiline" style="margin: auto">
-            <page-title></page-title>
-            <div class="card is-light" v-for="i in 6" :key="i">
+            <h1 class="title" style="margin:auto">My Tool Set</h1>
+            <div class="card is-light has-text-primary" v-for="i in 6" :key="i">
                 <div class="card-content">
-                    <s="subtitle has-text-primary" style="opacity:0.8">A hypertext markup language</p>
-                    <p class="has-texth1 class="title has-text-primary">HTML5</h1>
-                    <p clas-primary" style="opacity: 0.7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, veritatis!</p>
+                    <h1 class="title has-text-dark">VSCode</h1>
+                    <p class="subtitle has-text-dark">An opensource text-editor project</p>
+                    <p>I have learned HTML5. I can code HTML5 very easily and fast. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, veritatis!</p>
                 </div>
             </div>
-            <page-next></page-next>
         </div>
     </div>
 </template>
-<script>
-import PageTitle from '@/components/Base/PageTitle.vue';
-import PageNext from '@/components/Base/PageNext.vue';
-
-export default {
-    components: {
-        PageTitle,
-        PageNext
-    }
-}
-</script>
-
 <style scoped>
 .hero-body {
     padding-top: 50px;
