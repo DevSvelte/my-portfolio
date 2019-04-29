@@ -14,19 +14,19 @@
         other   : '@imsamtar',
     }
                 </pre>
-                <div class="notification is-dark" id="links">
-                    <a class="button is-dark" target="_blank" href="https://github.com/imsamtar">
-                        <i class="fab fa-github"></i>
-                        &nbsp;&nbsp;Github</a>
-                    <a class="button is-dark" target="_blank" href="https://twitter.com/imsamtar">
-                        <i class="fab fa-twitter"></i>
-                        &nbsp;Twitter</a>
-                    <a class="button is-dark" target="_blank" href="mail://imsamtar@gmail.com">
-                        <i class="far fa-envelope"></i>
-                        &nbsp;&nbsp;Email</a>
-                    <a class="button is-dark" href="#">
-                        <i class="fas fa-arrow-up"></i>
-                        &nbsp;&nbsp;Top</a>
+                <div class="notification is-black" id="links">
+                    <a class="button is-large is-rounded is-dark" target="_blank" href="https://github.com/imsamtar">
+                        <i class="fab fa-1x fa-github"></i>
+                    </a>
+                    <a class="button is-large is-rounded is-dark" target="_blank" href="https://twitter.com/imsamtar">
+                        <i class="fab fa-1x fa-twitter"></i>
+                    </a>
+                    <a class="button is-large is-rounded is-dark" target="_blank" href="mail://imsamtar@gmail.com">
+                        <i class="far fa-1x fa-envelope"></i>
+                    </a>
+                    <a class="button is-large is-rounded is-dark" href="#">
+                        <i class="fas fa-1x fa-arrow-up"></i>
+                    </a>
                 </div>
             </div>
         </div>
