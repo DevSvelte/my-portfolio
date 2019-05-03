@@ -1,4 +1,4 @@
-# MY-PORTFOLIO
+# todo-app
 
 ## Project setup
 ```

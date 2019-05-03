@@ -1,9 +1,0 @@
-// $primary: #12283f;
-$primary: rgb(8, 26, 104);
-@import '~bulma/bulma';
-body {
-    --first: #{$primary};
-    --second: #000000aa;
-    --third: #000000ee;
-}
-body::-webkit-scrollbar {display: none}
