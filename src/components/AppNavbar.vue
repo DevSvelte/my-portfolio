@@ -46,4 +46,7 @@ export default {
     width: 100%;
     text-transform: uppercase;
 }
+.navbar-brand > a > img {
+    border-radius: 10%;
+}
 </style>
