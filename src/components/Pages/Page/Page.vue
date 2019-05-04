@@ -26,10 +26,8 @@ export default {
 }
 .mytitle {
     text-align: center;
-    /* mix-blend-mode: difference; */
     text-transform: uppercase;
     font-weight: 900 !important;
-    /* background: var(--color-b-2); */
     padding: 10px;
     max-width: 300px;
     margin: auto;
