@@ -34,17 +34,16 @@ export default {
 }
 .container {
     mix-blend-mode: difference;
-    min-height: calc(100vh - 52px - 36px - 36px - 20px);
+    min-height: calc(100vh - 52px - 36px - 36px - 40px);
 }
 .next {
     display: flex;
     background: var(--color-b-2);
-    margin: auto;
     height: 36px;
     max-width: 200px;
     place-items: center;
     place-content: center;
-    margin-bottom: 20px;
+    margin: 20px auto;
     font-size: 25px;
 }
 </style>
