@@ -26,9 +26,13 @@ export default {
 }
 .mytitle {
     text-align: center;
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
     text-transform: uppercase;
-    font-weight: 500 !important;
+    font-weight: 900 !important;
+    /* background: var(--color-b-2); */
+    padding: 10px;
+    max-width: 300px;
+    margin: auto;
     font-size: 25px;
     letter-spacing: 10px;
 }
@@ -39,10 +43,10 @@ export default {
     display: flex;
     background: var(--color-b-2);
     height: 36px;
-    max-width: 200px;
+    max-width: 100px;
     place-items: center;
     place-content: center;
-    margin: 20px auto;
+    margin: 10px auto;
     font-size: 25px;
 }
 </style>
