@@ -32,12 +32,13 @@ export default {
     min-height: 100vh;
     display: flex;
     place-items: center;
+    padding-top: 52px;
 }
 #header>.container {
-    min-height: 400px;
-    max-width: 700px;
+    min-height: calc(100vh - 52px);
     width: 100%;
-    background: var(--color-b-2);
+    background: transparent;
+    /* background: green; */
     color: white;
     display: grid;
     grid-template-rows: repeat(3, max-content);
