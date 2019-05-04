@@ -46,7 +46,7 @@ export default {
     padding: 15px 10px 10px 15px;
     background: var(--color-b-2);
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 #skills > * > .mysubtitle {
     font-size: 20px;
@@ -61,5 +61,13 @@ export default {
     text-align: center;
     width: 100%;
     font-size: 55px;
+}
+@media screen and (max-width: 600px){
+    #skills {
+        grid-gap: 5px;
+    }
+    #skills > * {
+        border-radius: 0;
+    }
 }
 </style>
