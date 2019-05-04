@@ -23,14 +23,13 @@ export default {
 .page {
     min-height: 100vh;
     padding-top: 52px;
+    color: #ffffffbb;
 }
 .mytitle {
     text-align: center;
     text-transform: uppercase;
     font-weight: 900 !important;
     padding: 10px;
-    max-width: 300px;
-    margin: auto;
     font-size: 25px;
     letter-spacing: 10px;
 }
@@ -39,12 +38,13 @@ export default {
 }
 .next {
     display: flex;
-    background: var(--color-b-2);
+    background: var(--color-b-1);
     height: 36px;
     max-width: 100px;
     place-items: center;
     place-content: center;
-    margin: 10px auto;
+    margin: 10px auto 20px auto;
     font-size: 25px;
+    color: #ffffff77;
 }
 </style>
