@@ -33,7 +33,6 @@ export default {
     letter-spacing: 10px;
 }
 .container {
-    mix-blend-mode: difference;
     min-height: calc(100vh - 52px - 36px - 36px - 40px);
 }
 .next {
