@@ -1,5 +1,5 @@
 <template>
-    <page title="My Skills" next="true" >
+    <page title="My Weapons" next="true" >
         <div id="skills">
             <div 
                 v-for="(skill, index) in skills"
