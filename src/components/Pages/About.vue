@@ -1,5 +1,5 @@
 <template>
-    <page title="About Me" next="true" >
+    <page id="aboutme" title="About Me" next="footer" >
         
     </page>
 </template>

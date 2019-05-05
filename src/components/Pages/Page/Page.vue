@@ -4,9 +4,9 @@
         <div class="container">
             <slot></slot>
         </div>
-        <div class="next" v-if="next">
+        <a :href="'#'+next" class="next" v-if="next">
             <i class="fas fa-chevron-down"></i>
-        </div>
+        </a>
     </section>
 </template>
 <script>

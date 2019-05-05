@@ -7,9 +7,9 @@
             <h1 class="title" style="opacity: 1">SAMEER TARIQ</h1>
             <h2>is a </h2>
             <h1>WEB DEVELOPER &amp; DESIGNER</h1>
-            <div class="next">
+            <a href="#my-skills" class="next">
                 <i class="fas fa-chevron-down"></i>
-            </div>
+            </a>
         </div>
     </header>
     </div>
