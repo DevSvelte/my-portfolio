@@ -25,7 +25,9 @@ export default {
     methods: {
         mouseMove(e){
             let header = document.getElementById('header');
-            header.style.setProperty('--x', `${100*e.screenX/window.innerWidth}%`);
+            let val = e.screenX/window.innerWidth;
+            // header.style.setProperty('--x', `${100*val}%`);
+            header.style.setProperty('--hue', `${170*val}deg`);
         }
     },
     created(){
@@ -53,8 +55,6 @@ export default {
     animation: 2s fadein;
     top: 15vh;
     max-width:350px;
-    /* filter: blur(5px); */
-    filter: drop-shadow(5px 5px 50px black);
 }
 #header>.container>* {
     color: #fff;
@@ -64,11 +64,8 @@ export default {
 }
 #header>.container>img {
     border-radius: 50%;
-    /* border: 1px solid #0b0e19; */
     margin-bottom: 10px;
     width: 200px;
-    /* mix-blend-mode: luminosity; */
-    /* filter: blur(10px); */
     filter: hue-rotate(var(--hue, 30deg));
 }
 #header>.container>h1 {
