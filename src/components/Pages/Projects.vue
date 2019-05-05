@@ -1,5 +1,5 @@
 <template>
-    <page title="My Projects" next="true" background="#8a20b3">
+    <page title="My Projects" next="true" background="#020619">
         
     </page>
 </template>
