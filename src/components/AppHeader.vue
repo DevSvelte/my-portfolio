@@ -81,11 +81,9 @@ export default {
     height: 36px;
     width: 100px;
     place-content: center;
-    margin: 10px auto 20px auto;
+    margin: 20px auto;
     font-size: 25px;
     color: #ffffff77;
-    position: relative;
-    top: 80%;
 }
 @keyframes fadein {
     from { opacity:0 }
