@@ -15,13 +15,13 @@
                 <a href="#" class="navbar-item">
                     <i class="fas fa-home"></i>&nbsp;&nbsp;Home
                 </a>
-                <a href="#" class="navbar-item">
+                <a href="#my-skills" class="navbar-item">
                     <i class="fas fa-tools"></i>&nbsp;&nbsp;Skills
                 </a>
-                <a href="#" class="navbar-item">
+                <a href="#my-projects" class="navbar-item">
                     <i class="fas fa-briefcase"></i>&nbsp;&nbsp;Projects
                 </a>
-                <a href="#" class="navbar-item">
+                <a href="#aboutme" class="navbar-item">
                     <i class="fas fa-user"></i>&nbsp;&nbsp;About
                 </a>
                 <a href="//github.com/imsamtar" target="_blank" class="navbar-item">
