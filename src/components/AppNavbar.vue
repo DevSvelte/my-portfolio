@@ -3,7 +3,7 @@
         <div class="container">
             <div class="navbar-brand">
                 <a href="/" class="navbar-item">
-                    <img src="img/icons/favicon-32x32.png" alt="Sameer Tariq">
+                    <i class="fas fa-code"></i>
                 </a>
                 <span class="navbar-burger" :class="{'is-active': activeMenu}" @click="activeMenu=!activeMenu">
                     <span></span>
