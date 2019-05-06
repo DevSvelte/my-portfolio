@@ -1,20 +1,17 @@
 <template>
   <div id="app">
     <app-header/>
-    <router-view></router-view>
+    <home/>
     <app-footer/>
   </div>
 </template>
 
 <script>
 import AppHeader from '@/components/AppHeader.vue';
+import Home from '@/views/Home.vue';
 import AppFooter from '@/components/AppFooter.vue';
 
 export default {
-  components: { AppHeader, AppFooter },
+  components: { Home, AppHeader, AppFooter },
 }
 </script>
-
-<style lang="scss">
-
-</style>
