@@ -1,5 +1,5 @@
 <template>
-    <page id="my-projects" title="My Projects" next="aboutme" background="#020619">
+    <page id="my-projects" title="My Projects" next="aboutme" background="#821354">
         <div id="projects">
             <div 
                 v-for="(project, index) in projects"
