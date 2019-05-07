@@ -26,9 +26,9 @@ export default {
     components: { Page },
     data: () => ({
         projects: [
-            { img: '/img/projects/my-portfolio.png', github: '//github.com/imsamtar/my-portfolio', title: 'My Portfolio Website (This Site)', link: '//google.com'},
-            { img: '/img/projects/my-todos.png', github: '//github.com/imsamtar/my-portfolio', title: 'My Todos App' , link: '//mytodos.ml'},
-            { img: '/img/projects/hosterxml.png', github: '//github.com/imsamtar/hosterx.ml', title: 'HosterXML Web Hoster'  , link: '//google.com'},
+            { img: '/img/projects/my-portfolio.png', github: '//github.com/imsamtar/my-portfolio', title: 'My Portfolio Website (This Site)', link: '//imsamtar.github.io'},
+            { img: '/img/projects/my-todos.png', github: '//github.com/imsamtar/my-todos', title: 'My Todos App' , link: '//mytodos.ga'},
+            { img: '/img/projects/hosterxml.png', github: '//github.com/imsamtar/hosterx.ml', title: 'HosterXML Web Hoster'  , link: '//www.hosterx.ml'},
             { img: '//', github: '//github.com/imsamtar', title: '#', link: '#'},
             { img: '//', github: '//github.com/imsamtar', title: '#', link: '#'},
             { img: '//', github: '//github.com/imsamtar', title: '#', link: '#'}
