@@ -4,9 +4,17 @@
             <div class="column is-one-third">
                 <img src="/img/icons/apple-icon-180x180.png" alt="">
             </div>
-            <p class="column has-text-justified">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam eius, officiis possimus dolore porro ipsam itaque suscipit tempore laborum, ab voluptate quidem sint blanditiis placeat molestias neque expedita asperiores dolorum qui? Eaque porro atque deleniti. Quisquam vel, reprehenderit optio, quam sit atque numquam nobis libero distinctio, omnis minima quibusdam tempore officia similique veritatis maiores asperiores delectus vitae voluptatum nihil dolores dolore ab. Facilis, dolor blanditiis, cumque dolore saepe tenetur doloremque soluta, hic dignissimos laboriosam a quisquam quibusdam? Excepturi, ea quaerat eligendi, labore qui similique hic dolorum quo distinctio, tempore natus fugiat? Nulla aliquid quam nihil iusto aut veniam, possimus animi obcaecati iure inventore asperiores! Natus voluptatibus, sunt est atque unde magni magnam laboriosam odio odit quas mollitia aliquam cum id eveniet laborum placeat consequatur accusamus dicta culpa modi repellendus hic? Id quidem iusto delectus vero, perferendis sit, tenetur necessitatibus eum suscipit quod veniam rerum dolorem corrupti nobis fugit at vel enim accusamus aperiam sequi ratione fuga minus repudiandae! Deserunt atque iusto non dignissimos nesciunt officia quidem distinctio in sit tenetur numquam, neque aperiam minus aliquam assumenda explicabo soluta laudantium quasi? Quasi sapiente impedit illum eaque fuga odio corporis, sit ipsum commodi eligendi velit ea ullam, itaque omnis maiores quibusdam exercitationem!
-            </p>
+            <div class="column">
+              <p class="has-text-justified">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptate repellat maxime tenetur reprehenderit! A facilis soluta odio beatae sit omnis! Suscipit quibusdam consequatur hic! Minus dolores laboriosam possimus distinctio atque ab neque voluptate quae non iste veniam, a, quo hic? Deleniti quaerat itaque omnis dignissimos praesentium, ipsam nihil minima delectus expedita sapiente excepturi illo esse facere, cum modi aliquam accusantium consectetur voluptate magni nesciunt vel error natus nostrum. Fugiat explicabo adipisci aliquid odit ab doloremque ad eius, ex dicta sunt perspiciatis optio. Molestias quae natus sunt inventore? Ducimus voluptatum architecto fugiat enim porro. Quidem pariatur voluptatem ullam minima optio!
+              </p>
+              <p class="has-text-justified">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste perferendis doloribus accusantium rem velit fuga, consectetur odit, minus, laudantium maxime dicta placeat? Necessitatibus blanditiis at quo voluptatibus voluptatem saepe soluta deleniti possimus veritatis repellendus, architecto totam vero quos natus enim deserunt voluptatum! Unde sequi deserunt obcaecati, at odio accusamus, quibusdam explicabo quidem sint, blanditiis voluptate ad totam atque neque fuga soluta distinctio! Minus corrupti animi eos voluptatibus rerum explicabo eum expedita, labore aut exercitationem commodi eaque delectus in repellendus?
+              </p>
+              <p class="has-text-justified">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, unde quod impedit dicta id rem. Aut iste nostrum magni obcaecati ratione, distinctio illum molestiae accusantium sequi, commodi non ipsum eos praesentium omnis! Consectetur soluta quos est totam, placeat dolore repudiandae nam, assumenda corporis, culpa quae dolorum laudantium rem sequi! Odit inventore ut illum eum quae odio unde praesentium dolores debitis?
+              </p>
+            </div>
         </div>
     </page>
 </template>
