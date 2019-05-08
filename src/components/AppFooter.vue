@@ -1,17 +1,22 @@
 <template>
     <footer id="footer" class="notification is-black">
-        <pre class="container card">
-    {
-        
-        'name'     : 'Sameer Tariq',
-        'username' : 'WebDevHyena',
-        'email'    : 'WebDevHyena@gmail.com',
-        'github'   : 'https://github.com/WebDevHyena',
-        'twitter'  : 'https://twitter.com/WebDevHyena',
-        'fcc'      : 'https://freecodecamp.com/WebDevHyena',
-
-    }
-        </pre>
+        <div class="container columns">
+            <a target="_blank" href="//github.com/WebDevCrow" class="column card">
+                <i class="fab fa-github fa-3x"></i>
+            </a>
+            <a target="_blank" href="//twitter.com/WebDevCrow" class="column card">
+                <i class="fab fa-twitter fa-3x"></i>
+            </a>
+            <a target="_blank" href="//facebook.com/WebDevCrow" class="column card">
+                <i class="fab fa-facebook fa-3x"></i>
+            </a>
+            <a target="_blank" href="//www.youtube.com/channel/UCv8b1lbBXjhDqvxORpmoEnw?sub_confirmation=1" class="column card">
+                <i class="fab fa-youtube fa-3x"></i>
+            </a>
+            <a target="_blank" href="mailto://imsamtar@gmail.com" class="column card">
+                <i class="fas fa-envelope fa-3x"></i>
+            </a>
+        </div>
     </footer>
 </template>
 
@@ -24,20 +29,16 @@
     border-radius: 0;
 }
 #footer>.container {
+    margin: auto;
     height: 400px;
-    max-width: 700px;
     width: 100%;
     background: transparent;
     color: white;
+}
+#footer>.container > .card {
+    background: black;
     display: grid;
-    grid-template-rows: 1fr;
     place-items: center;
-}
-#footer>.container::-webkit-scrollbar{
-    display: none;
-}
-#footer>.container>img {
-    margin: auto;
-    height: 100px;
+    text-decoration: none;
 }
 </style>
