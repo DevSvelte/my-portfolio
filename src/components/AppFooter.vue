@@ -3,12 +3,12 @@
         <pre class="container card">
     {
         
-        'name'     : 'sameer_tariq',
-        'username' : 'imsamtar',
-        'email'    : 'imsamtar@gmail.com',
-        'github'   : 'https://github.com/imsamtar',
-        'twitter'  : 'https://twitter.com/imsamtar',
-        'fcc'      : 'https://freecodecamp.com/imsamtar',
+        'name'     : 'Sameer Tariq',
+        'username' : 'WebDevHyena',
+        'email'    : 'WebDevHyena@gmail.com',
+        'github'   : 'https://github.com/WebDevHyena',
+        'twitter'  : 'https://twitter.com/WebDevHyena',
+        'fcc'      : 'https://freecodecamp.com/WebDevHyena',
 
     }
         </pre>
