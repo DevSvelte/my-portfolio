@@ -1,19 +1,19 @@
 <template>
     <footer id="footer" class="notification is-black">
         <div class="container columns">
-            <a target="_blank" href="//github.com/WebDevCrow" class="column card">
+            <a target="_blank" href="//github.com/DevSvelte" class="column card">
                 <i class="fab fa-github fa-3x"></i>
             </a>
-            <a target="_blank" href="//twitter.com/WebDevCrow" class="column card">
+            <a target="_blank" href="//twitter.com/DevSvelte" class="column card">
                 <i class="fab fa-twitter fa-3x"></i>
             </a>
-            <a target="_blank" href="//facebook.com/WebDevCrow" class="column card">
+            <a target="_blank" href="//facebook.com/DevSvelte" class="column card">
                 <i class="fab fa-facebook fa-3x"></i>
             </a>
             <a target="_blank" href="//www.youtube.com/channel/UCv8b1lbBXjhDqvxORpmoEnw?sub_confirmation=1" class="column card">
                 <i class="fab fa-youtube fa-3x"></i>
             </a>
-            <a target="_blank" href="mailto://imsamtar@gmail.com" class="column card">
+            <a target="_blank" href="mailto://devsvelte@gmail.com" class="column card">
                 <i class="fas fa-envelope fa-3x"></i>
             </a>
         </div>
