@@ -24,7 +24,7 @@
                 <a href="#aboutme" class="navbar-item">
                     <i class="fas fa-user"></i>&nbsp;&nbsp;About
                 </a>
-                <a href="//github.com/DevSvelte" target="_blank" class="navbar-item">
+                <a href="//github.com/imsamtar" target="_blank" class="navbar-item">
                     <i class="fab fa-github"></i>&nbsp;&nbsp;Github
                 </a>
             </div>
