@@ -66,7 +66,7 @@ export default {
     border-radius: 50%;
     margin-bottom: 10px;
     width: 200px;
-    filter: hue-rotate(var(--hue, 30deg));
+    /* filter: hue-rotate(var(--hue, 30deg)); */
 }
 #header>.container>h1 {
     opacity: 0.9;
