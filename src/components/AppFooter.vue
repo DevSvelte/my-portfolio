@@ -10,7 +10,7 @@
             <a target="_blank" href="//facebook.com/imsamtariq" class="column card">
                 <i class="fab fa-facebook fa-3x"></i>
             </a>
-            <a target="_blank" href="//www.youtube.com/channel/UCv8b1lbBXjhDqvxORpmoEnw?sub_confirmation=1" class="column card">
+            <a target="_blank" href="//www.youtube.com/channel/UCIptKxV6zbFuz8Jrmcy4i2w?sub_confirmation=1" class="column card">
                 <i class="fab fa-youtube fa-3x"></i>
             </a>
             <a target="_blank" href="mailto://imsamtar@gmail.com" class="column card">
