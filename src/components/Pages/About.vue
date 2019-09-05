@@ -6,13 +6,13 @@
             </div>
             <div class="column">
               <p class="has-text-justified">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptate repellat maxime tenetur reprehenderit! A facilis soluta odio beatae sit omnis! Suscipit quibusdam consequatur hic! Minus dolores laboriosam possimus distinctio atque ab neque voluptate quae non iste veniam, a, quo hic? Deleniti quaerat itaque omnis dignissimos praesentium, ipsam nihil minima delectus expedita sapiente excepturi illo esse facere, cum modi aliquam accusantium consectetur voluptate magni nesciunt vel error natus nostrum. Fugiat explicabo adipisci aliquid odit ab doloremque ad eius, ex dicta sunt perspiciatis optio. Molestias quae natus sunt inventore? Ducimus voluptatum architecto fugiat enim porro. Quidem pariatur voluptatem ullam minima optio!
+                  Hi! Thanks for being here! My name is Sameer Tariq. I am a creative web develepor holding minimum 3 year experience. Excellent work is always my aim. I am here to provide services in a more reliable and effective mode. 100% quality work is guaranteed. Cordially waiting for a chance to surprise you, Thank You!
               </p>
               <p class="has-text-justified">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste perferendis doloribus accusantium rem velit fuga, consectetur odit, minus, laudantium maxime dicta placeat? Necessitatibus blanditiis at quo voluptatibus voluptatem saepe soluta deleniti possimus veritatis repellendus, architecto totam vero quos natus enim deserunt voluptatum! Unde sequi deserunt obcaecati, at odio accusamus, quibusdam explicabo quidem sint, blanditiis voluptate ad totam atque neque fuga soluta distinctio! Minus corrupti animi eos voluptatibus rerum explicabo eum expedita, labore aut exercitationem commodi eaque delectus in repellendus?
+                  You can hire me to create a website that is modern / attractive. So why waste any time just send me an email <a href="mail://imsamtar@gmail.com"imsamtar@gmail.com></a> and i will respond you.
               </p>
-              <p class="has-text-justified">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, unde quod impedit dicta id rem. Aut iste nostrum magni obcaecati ratione, distinctio illum molestiae accusantium sequi, commodi non ipsum eos praesentium omnis! Consectetur soluta quos est totam, placeat dolore repudiandae nam, assumenda corporis, culpa quae dolorum laudantium rem sequi! Odit inventore ut illum eum quae odio unde praesentium dolores debitis?
+              <p>
+                  Thank You
               </p>
             </div>
         </div>
