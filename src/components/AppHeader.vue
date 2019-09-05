@@ -24,10 +24,10 @@ export default {
     }),
     methods: {
         mouseMove(e){
-            // let header = document.getElementById('header');
-            // let val = e.screenX/window.innerWidth;
-            // header.style.setProperty('--x', `${100*val}%`);
-            // header.style.setProperty('--hue', `${(40*val)+20}deg`);
+            let header = document.getElementById('header');
+            let val = e.screenX/window.innerWidth;
+            header.style.setProperty('--x', `${100*val}%`);
+            header.style.setProperty('--hue', `${(40*val)+20}deg`);
         }
     },
     created(){
