@@ -66,6 +66,7 @@ export default {
     border-radius: 1%;
     margin-bottom: 10px;
     width: 200px;
+    mix-blend-mode: darken;
     /* filter: hue-rotate(var(--hue, 30deg)); */
 }
 #header>.container>h1 {
