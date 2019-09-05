@@ -63,7 +63,7 @@ export default {
     margin: auto;
 }
 #header>.container>img {
-    border-radius: 50%;
+    border-radius: 1%;
     margin-bottom: 10px;
     width: 200px;
     /* filter: hue-rotate(var(--hue, 30deg)); */
