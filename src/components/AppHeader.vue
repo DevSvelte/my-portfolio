@@ -69,7 +69,7 @@ export default {
     mix-blend-mode: darken;
     opacity: 0;
     animation: reveal 2s forwards;
-    /* filter: hue-rotate(var(--hue, 30deg)); */
+    filter: hue-rotate(var(--hue, 30deg));
 }
 @keyframes reveal {
     from { opacity: 0; }
