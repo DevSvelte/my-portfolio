@@ -5,7 +5,6 @@
         <div class="container">
             <img id="image" class="profile-image" style="opacity: 0;" src="img/icons/android-icon-144x144.png" alt="">
             <h1 class="title" style="opacity: 1">SAMEER TARIQ</h1>
-            <h2>is a </h2>
             <h1>WEB DEVELOPER &amp; DESIGNER</h1>
             <a href="#my-skills" class="next">
                 <i class="fas fa-chevron-down"></i>
@@ -78,9 +77,6 @@ export default {
 #header>.container>h1 {
     opacity: 0.9;
     font-weight: bold;
-}
-#header>.container>h2 {
-    opacity: 0.4;
 }
 #header>.container>.next {
     display: grid;
