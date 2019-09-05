@@ -1,5 +1,6 @@
 <template>
-    <div @mousemove="mouseMove($event)">
+    <div > 
+        <!--  add to above div @mousemove="mouseMove($event)" -->
     <app-navbar/>
     <header id="header">
         <div class="container">
@@ -23,10 +24,10 @@ export default {
     }),
     methods: {
         mouseMove(e){
-            let header = document.getElementById('header');
-            let val = e.screenX/window.innerWidth;
-            header.style.setProperty('--x', `${100*val}%`);
-            header.style.setProperty('--hue', `${(40*val)+20}deg`);
+            // let header = document.getElementById('header');
+            // let val = e.screenX/window.innerWidth;
+            // header.style.setProperty('--x', `${100*val}%`);
+            // header.style.setProperty('--hue', `${(40*val)+20}deg`);
         }
     },
     created(){
@@ -68,7 +69,7 @@ export default {
     mix-blend-mode: darken;
     opacity: 0;
     animation: reveal 2s forwards;
-    filter: hue-rotate(var(--hue, 30deg));
+    /* filter: hue-rotate(var(--hue, 30deg)); */
 }
 @keyframes reveal {
     from { opacity: 0; }
