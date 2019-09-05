@@ -30,7 +30,7 @@ export default {
             { img: '/img/projects/my-todos.png', github: '//github.com/imsamtar/my-todos', title: 'My Todos App' , link: '//mytodos.ga'},
             { img: '/img/projects/hosterxml.png', github: '//github.com/imsamtar/hosterx.ml', title: 'HosterXML Web Hoster'  , link: '//www.hosterx.ml'},
             { img: '/img/projects/gifinder.png', github: '//github.com/imsamtar/gifinder', title: 'Gifinder App', link: '//gifinder.netlify.com'},
-            { img: '//', github: '//github.com/imsamtar', title: '#', link: '#'},
+            { img: '/img/projects/isfake-ml.png', github: '//github.com/imsamtar/isfake-mi', title: 'IsFake App', link: '//isfake.netlify.com'},
             { img: '//', github: '//github.com/imsamtar', title: '#', link: '#'}
         ]
     })
