@@ -3,7 +3,7 @@
     <app-navbar/>
     <header id="header">
         <div class="container">
-            <img id="image" class="profile-image" src="img/icons/android-icon-144x144.png" alt="">
+            <img id="image" class="profile-image" style="visibility: hidden;" src="img/icons/android-icon-144x144.png" alt="">
             <h1 class="title" style="opacity: 1">SAMEER TARIQ</h1>
             <h2>is a </h2>
             <h1>WEB DEVELOPER &amp; DESIGNER</h1>
@@ -67,6 +67,7 @@ export default {
     margin-bottom: 10px;
     width: 200px;
     mix-blend-mode: darken;
+    visibility: visible;
     /* filter: hue-rotate(var(--hue, 30deg)); */
 }
 #header>.container>h1 {
