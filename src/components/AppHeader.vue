@@ -67,7 +67,7 @@ export default {
     margin-bottom: 10px;
     width: 200px;
     mix-blend-mode: darken;
-    visibility: visible;
+    visibility: visible !important;
     /* filter: hue-rotate(var(--hue, 30deg)); */
 }
 #header>.container>h1 {
