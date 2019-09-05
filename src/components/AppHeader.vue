@@ -67,13 +67,13 @@ export default {
     margin-bottom: 10px;
     width: 200px;
     mix-blend-mode: darken;
-    visibility: hidden;
-    animation: reveal 2s;
+    opacity: 0;
+    animation: reveal 2s forwards;
     /* filter: hue-rotate(var(--hue, 30deg)); */
 }
 @keyframes reveal {
-    from { visibility: hidden; }
-    to { visibility: visible; }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 #header>.container>h1 {
     opacity: 0.9;
