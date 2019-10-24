@@ -4,9 +4,7 @@
     <app-navbar/>
     <header id="header">
         <div class="container">
-            <img id="image" class="profile-image" style="opacity: 0;" src="img/icons/android-icon-144x144.png" alt="">
             <h1 class="title" style="opacity: 1">SAMEER TARIQ</h1>
-            <h1>WEB DEVELOPER &amp; DESIGNER</h1>
             <a href="#my-skills" class="next">
                 <i class="fas fa-chevron-down"></i>
             </a>
