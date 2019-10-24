@@ -2,7 +2,7 @@
     <page id="aboutme" title="About Me" next="footer" >
         <div id="about" class="columns">
             <div class="column is-one-third">
-                <img src="/img/icons/apple-icon-180x180.png" alt="">
+                <img src="/nb" alt="">
             </div>
             <div class="column">
               <p class="has-text-justified">
