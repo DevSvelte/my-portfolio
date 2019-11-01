@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "1.0.0",
+  "author": "Sameer Tariq",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
