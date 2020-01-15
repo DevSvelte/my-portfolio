@@ -18,7 +18,7 @@ h1 {
     margin-bottom: 0.1rem;
 }
 .container {
-    padding-top: 2rem;
+    padding-top: 0.5rem;
     width: 100%;
     font-family: cursive;
 }
