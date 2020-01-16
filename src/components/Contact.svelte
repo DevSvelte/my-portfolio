@@ -27,6 +27,7 @@ h1 {
     display: flex;
     flex-flow: wrap;
     margin: 2rem auto;
+    padding: 0.3rem;
     justify-content: center;
 }
 .form > input {
