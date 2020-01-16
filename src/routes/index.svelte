@@ -3,6 +3,7 @@
 	import About from '../components/About.svelte';
 	import Tools from '../components/Tools.svelte';
 	import Projects from '../components/Projects.svelte';
+	import Contact from '../components/Contact.svelte';
 
 </script>
 
@@ -10,3 +11,4 @@
 <About />
 <Tools />
 <Projects />
+<Contact />

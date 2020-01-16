@@ -49,7 +49,7 @@ h1 {
             <Project name="JavaScript" icon="b fa-js" value="80" />
         </div>
         <div style="text-align: center;">
-            <Button target="hero" text="Back to Top" color="#222222" />
+            <Button target="contact" text="Next" color="#222222" />
         </div>
     </div>
 </section>
