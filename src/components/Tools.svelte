@@ -7,7 +7,7 @@
 
 <style>
 section {
-    height: 110vh;
+    min-height: 110vh;
     display: flex;
     justify-content: center;
     background: #d5d5d5;
