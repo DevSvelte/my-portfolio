@@ -66,11 +66,11 @@ h1 {
     <div class="container">
         <h1>Some of my latest work</h1>
         <div class="projects">
-            <Project image="portfolio-v2.jpg" source="https://github.com/imsamtar/" visit="https://dotme.ml" />
-            <Project image="portfolio-v1.jpg" source="https://github.com/imsamtar/portfolio" visit="https://imsamtar.ml" />
-            <Project image="hosterxml.jpg" source="https://github.com/imsamtar/hosterxml" visit="https://hosterx.ml" />
-            <Project image="gifinder.jpg" source="https://github.com/imsamtar/gifinder" visit="https://gifinder.netlify.com/" />
-            <Project image="mytodos-ga.jpg" source="https://github.com/imsamtar/my-todos" visit="https://my-todos-imsamtar.netlify.com/" />
+            <Project title="Portfolio V2" image="portfolio-v2.jpg" source="https://github.com/imsamtar/" visit="https://dotme.ml" />
+            <Project title="Portfolio V1" image="portfolio-v1.jpg" source="https://github.com/imsamtar/portfolio" visit="https://imsamtar.ml" />
+            <Project title="HosterXML" image="hosterxml.jpg" source="https://github.com/imsamtar/hosterxml" visit="https://hosterx.ml" />
+            <Project title="Gif Finder" image="gifinder.jpg" source="https://github.com/imsamtar/gifinder" visit="https://gifinder.netlify.com/" />
+            <Project title="My Todos" image="mytodos-ga.jpg" source="https://github.com/imsamtar/my-todos" visit="https://my-todos-imsamtar.netlify.com/" />
         </div>
         <div style="text-align: center;">
             <Button target="contact" text="Next" color="#222222" />
