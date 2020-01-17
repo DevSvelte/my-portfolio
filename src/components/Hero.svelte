@@ -7,8 +7,8 @@ let scrollY, div;
 let addY = () => {};
 onMount(() => {
 	addY = () => {
-		div.style.marginTop = (scrollY*0.8)+'px';
-		div.parentElement.style.backgroundPosition = "left, 0 "+(Math.max(scrollY*0.9 - 40, 0))+"px, right";
+		div.style.marginTop = (scrollY*0.7)+'px';
+		div.parentElement.style.backgroundPosition = "left, 50% "+(scrollY-40)+"px, right";
 	}
 });
 </script>
