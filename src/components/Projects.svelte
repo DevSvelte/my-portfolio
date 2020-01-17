@@ -1,6 +1,20 @@
 <script>
+    import {onMount} from 'svelte';
     import Project from './Projects/Project.svelte';
     import Button from './Button.svelte';
+
+    onMount(() => {
+        let projects = document.querySelectorAll('.project');
+        projects.forEach(project => {
+            project.addEventListener('mouseenter', (e) => {
+                projects.forEach(t => t.style.filter = 'blur(5px) grayscale(1)');
+                e.srcElement.style.filter = 'blur(0)';
+            });
+            project.addEventListener('mouseleave', (e) => {
+                projects.forEach(t => t.style.filter = 'blur(0) grayscale(0)');
+            });
+        });
+    });
 
 </script>
 
@@ -24,16 +38,26 @@ h1 {
 .projects {
     border-radius: 0.3rem;
     overflow: hidden;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 0.1rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 100%;
+    min-height: 60vh;
+    font-size: 16px;
 }
-@media (min-width: 1025px){
-    .container {
-        width: 85%;
-    }
+@media (max-width: 1600px){
     .projects {
-        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 15px;
+    }
+}
+@media (max-width: 1460px){
+    .projects {
+        font-size: 14px;
+    }
+}
+@media (max-width: 1366px){
+    .projects {
+        font-size: 16px;
     }
 }
 </style>
@@ -42,12 +66,11 @@ h1 {
     <div class="container">
         <h1>Some of my latest work</h1>
         <div class="projects">
-            <Project name="HTML" icon="b fa-html5" value="90" />
-            <Project name="CSS" icon="b fa-css3" value="85" />
-            <Project name="JavaScript" icon="b fa-js" value="80" />
-            <Project name="HTML" icon="b fa-html5" value="90" />
-            <Project name="CSS" icon="b fa-css3" value="85" />
-            <Project name="JavaScript" icon="b fa-js" value="80" />
+            <Project image="portfolio-v2.jpg" source="https://github.com/imsamtar/" visit="https://dotme.ml" />
+            <Project image="portfolio-v1.jpg" source="https://github.com/imsamtar/portfolio" visit="https://imsamtar.ml" />
+            <Project image="hosterxml.jpg" source="https://github.com/imsamtar/hosterxml" visit="https://hosterx.ml" />
+            <Project image="gifinder.jpg" source="https://github.com/imsamtar/gifinder" visit="https://gifinder.netlify.com/" />
+            <Project image="mytodos-ga.jpg" source="https://github.com/imsamtar/my-todos" visit="https://my-todos-imsamtar.netlify.com/" />
         </div>
         <div style="text-align: center;">
             <Button target="contact" text="Next" color="#222222" />

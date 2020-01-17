@@ -1,27 +1,26 @@
 <script>
     import {onMount} from 'svelte';
 
+    export let image, visit, source;
+    let project;
+
     onMount(() => {
-        let projects = document.querySelectorAll('.project');
-        projects.forEach(project => {
-            project.addEventListener('mouseenter', (e) => {
-                projects.forEach(t => t.style.filter = 'blur(5px) grayscale(1)');
-                e.srcElement.style.filter = 'blur(0)';
-            });
-            project.addEventListener('mouseleave', (e) => {
-                projects.forEach(t => t.style.filter = 'blur(0) grayscale(0)');
-            });
-        });
+        if(image){
+            project.style.background = `url('projects/${image}') 50% 50% / cover no-repeat`;
+        }
     });
 
 </script>
 
 <style>
 .project {
-    background: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg') no-repeat;
+    background: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg') 50% 50% / cover no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 300px;
+    margin: 0.1rem;
+    width: 32em;
+    height: 18em;
     display: flex;
     transition: 1s filter;
 }
@@ -39,18 +38,15 @@
 .project > a:hover {
     opacity: 1;
 }
-/* div:hover:before {
-    position: absolute;
-    color: white;
-    content: "Hello World";
-    min-height: 300px;
-    background: #22222277;
-    min-height: 400px;
-    transition: 2s all;
-} */
+@media (max-width: 512px){
+    .project {
+        width: 100vw;
+        height: 56.3vw;
+    }
+}
 </style>
 
-<div class="project" style="background: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg;">
-    <a href="/">Details</a>
-    <a href="/"><i class="fab fa-github fa-3x"></i></a>
+<div class="project" bind:this={project}>
+    <a target="_blank" href={visit}><i class="fas fa-external-link-alt fa-3x"></i></a>
+    <a target="_blank" href={source}><i class="fab fa-github fa-3x"></i></a>
 </div>
