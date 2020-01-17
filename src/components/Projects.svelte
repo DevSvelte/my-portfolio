@@ -6,7 +6,7 @@
 
 <style>
 section {
-    min-height: 90vh;
+    min-height: 85vh;
     display: flex;
     justify-content: center;
 }
@@ -17,7 +17,7 @@ h1 {
 }
 .container {
     padding: 0.1rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
     width: 100%;
     font-family: cursive;
 }

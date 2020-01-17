@@ -4,12 +4,12 @@
 
 <style>
 section {
-    min-height: 80vh;
+    min-height: 75vh;
     display: flex;
     justify-content: center;
 }
 .container {
-    padding-top: 1rem;
+    padding-top: 3rem;
     width: 100%;
     margin: 0 auto;
     text-align: center;
