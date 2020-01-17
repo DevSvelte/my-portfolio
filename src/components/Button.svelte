@@ -17,29 +17,44 @@ button {
 	background: transparent;
 	color: var(--color);
     border: 1px solid var(--color);
-    height: 2rem;
+    height: 2.5rem;
 	font-family: 'Raleway';
     margin: 2rem auto;
 	outline: 0;
     cursor: pointer;
     text-decoration: none;
-    display: flex;
+    text-align: center;
     overflow: hidden;
     transform: scale(1);
+    border-radius: 0.3rem;
+    min-width: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+    background-image: linear-gradient( 45deg,transparent 50%, var(--color) 50%);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 1s, color 0.5s 0.5s;
 }
-button > div {
-    position: absolute;
-    background: black;
-    color: black;
-    width: 100px;
-    height: 0;
-    opacity: 0.5;
-    transform: translateX(-1rem) translateY(-1rem);
-    transition: 0.7s height;
+button:hover {
+    background-position: right;
 }
-button:hover > div {
-    height: 100px;
+button:hover > span {
+    filter: invert(0%);
+    border-bottom: 1px solid var(--color);
+    animation: 0.5s invertColor forwards;
+}
+@keyframes invertColor {
+    0% {
+        filter: invert(0%);
+    }
+    70% {
+        filter: invert(0%);
+    }
+    100% {
+        filter: invert(100%);
+    }
 }
 </style>
 
-<button bind:this={button} style="--color: {color};"><span>{text}</span><div>.</div></button>
+<button bind:this={button} style="--color: {color};"><span>{text}</span></button>
