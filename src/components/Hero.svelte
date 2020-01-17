@@ -2,13 +2,15 @@
 import {onMount} from 'svelte';
 import Button from './Button.svelte';
 
-let scrollY, div;
+let scrollY, header, div;
 
 let addY = () => {};
 onMount(() => {
 	addY = () => {
-		div.style.marginTop = (scrollY*0.7)+'px';
-		div.parentElement.style.backgroundPosition = "left, 50% "+(scrollY-40)+"px, right";
+		if(scrollY<=window.innerHeight){
+			div.style.marginTop = (scrollY*0.7)+'px';
+			header.style.backgroundPosition = "left, 50% "+(scrollY-40)+"px, right";
+		}
 	}
 });
 
@@ -40,7 +42,7 @@ h1 {
 </style>
 
 <svelte:window bind:scrollY={scrollY}></svelte:window>
-<header id="hero">
+<header id="hero" bind:this={header}>
 	<div bind:this={div}>
 		<h1>Hello, I'm Sameer Tariq.</h1>
 		<h1>I'm a full-stack web developer.</h1>
