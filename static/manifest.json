@@ -1,9 +1,9 @@
 {
-	"background_color": "#ffffff",
-	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
-	"display": "minimal-ui",
+	"background_color": "#000020",
+	"theme_color": "#000020",
+	"name": "SAMEER",
+	"short_name": "imsamtar",
+	"display": "standalone",
 	"start_url": "/",
 	"icons": [
 		{
