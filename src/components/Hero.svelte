@@ -11,6 +11,8 @@ onMount(() => {
 		div.parentElement.style.backgroundPosition = "left, 50% "+(scrollY-40)+"px, right";
 	}
 });
+
+$: addY(scrollY);
 </script>
 
 <style>
@@ -37,7 +39,7 @@ h1 {
 }
 </style>
 
-<svelte:window bind:scrollY={scrollY} on:scroll={addY}></svelte:window>
+<svelte:window bind:scrollY={scrollY}></svelte:window>
 <header id="hero">
 	<div bind:this={div}>
 		<h1>Hello, I'm Sameer Tariq.</h1>
