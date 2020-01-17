@@ -31,13 +31,13 @@ h1 {
     justify-content: center;
 }
 .form > input {
-    border: 0;
     margin: 0.5rem 0;
 }
 .form > * {
     width: 100%;
     padding: 0.7rem 0.5rem;
     border-radius: 0.3rem;
+    border: 0;
 }
 .form > button {
     margin: 0.5rem 0;
