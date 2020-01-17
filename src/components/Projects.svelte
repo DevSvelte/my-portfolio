@@ -19,7 +19,7 @@ h1 {
     padding: 0.1rem;
     padding-top: 3rem;
     width: 100%;
-    font-family: cursive;
+    font-family: 'Raleway';
 }
 .projects {
     border-radius: 0.3rem;

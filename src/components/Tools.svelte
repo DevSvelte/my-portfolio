@@ -20,7 +20,7 @@ h1 {
 .container {
     padding-top: 3rem;
     width: 100%;
-    font-family: cursive;
+    font-family: cursive, sans-serif;
 }
 @media (min-width: 1025px){
     .container {
