@@ -13,6 +13,7 @@ onMount(() => {
 
 <style>
 button {
+    user-select: none;
 	background: transparent;
 	color: var(--color);
     border: 1px solid var(--color);

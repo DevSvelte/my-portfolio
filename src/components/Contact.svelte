@@ -44,6 +44,7 @@ h1 {
     padding: 0.7rem 1rem;
     background: rgb(13, 133, 39);
     color: #d5d5d5;
+    user-select: none;
 }
 @media (min-width: 1025px){
     .container {

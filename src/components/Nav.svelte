@@ -22,6 +22,7 @@ nav {
     justify-content: center;
     z-index: 10;
     border-bottom: 0.3rem solid navy;
+    user-select: none;
 }
 ul {
     min-height: 3rem;
