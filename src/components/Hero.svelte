@@ -8,6 +8,7 @@ let addY = () => {};
 onMount(() => {
 	addY = () => {
 		div.style.marginTop = (scrollY*0.8)+'px';
+		div.parentElement.style.backgroundPosition = "left, 0 "+(Math.max(scrollY*0.9 - 40, 0))+"px, right";
 	}
 });
 </script>
@@ -15,12 +16,16 @@ onMount(() => {
 <style>
 header {
 	height: 100vh;
-	background: #000020;
+	background-image: linear-gradient(45deg, #000022, #44442277), url(../bg.jpg), linear-gradient(#000022, #000022);
+	background-repeat: no-repeat, no-repeat;
+	background-position: left, center, right;
+	background-size: cover, cover, cover;
 	color: #eeeeee;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	user-select: none;
+	overflow: hidden;
 }
 div {
 	padding: 1rem;
