@@ -1,6 +1,15 @@
 <script>
+import {onMount} from 'svelte';
 import Button from './Button.svelte';
 
+let scrollY, div;
+
+let addY = () => {};
+onMount(() => {
+	addY = () => {
+		div.style.marginTop = (scrollY*0.8)+'px';
+	}
+});
 </script>
 
 <style>
@@ -23,8 +32,9 @@ h1 {
 }
 </style>
 
+<svelte:window bind:scrollY={scrollY} on:scroll={addY}></svelte:window>
 <header id="hero">
-	<div>
+	<div bind:this={div}>
 		<h1>Hello, I'm Sameer Tariq.</h1>
 		<h1>I'm a full-stack web developer.</h1>
 
