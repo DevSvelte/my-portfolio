@@ -2,14 +2,16 @@
 import {onMount} from 'svelte';
 
 let jumpTo = () => {}
+let active = false;
 
 onMount(() => {
     jumpTo = (target) => {
-        document.getElementById(target).scrollIntoView();
+        active = false;
+        setTimeout(() => {
+            document.getElementById(target).scrollIntoView();
+        }, 200);
     }
 });
-
-let active = false;
 
 </script>
 
