@@ -38,6 +38,7 @@ h1 {
     padding: 0.7rem 0.5rem;
     border-radius: 0.3rem;
     border: 0;
+    font-family: 'Raleway', sans-serif;
 }
 .form > button {
     margin: 0.5rem 0;
@@ -45,6 +46,7 @@ h1 {
     background: rgb(13, 133, 39);
     color: #d5d5d5;
     user-select: none;
+    font-weight: bold;
 }
 @media (min-width: 1025px){
     .container {
@@ -63,6 +65,6 @@ h1 {
             <textarea name="message" id="message" cols="40" rows="10" placeholder="Message"></textarea>
             <button>Send Message</button>
         </div>
-        <Button target="hero" text="Back to Top" color="#222222" />
+        <Button target="hero" text="Back to top" color="#222222" />
     </div>
 </section>
