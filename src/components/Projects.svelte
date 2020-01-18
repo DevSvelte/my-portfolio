@@ -2,6 +2,9 @@
     import {onMount} from 'svelte';
     import Project from './Projects/Project.svelte';
     import Button from './Button.svelte';
+    import {observer} from '../store.js';
+
+    let section;
 
     onMount(() => {
         let projects = document.querySelectorAll('.project');
@@ -14,6 +17,7 @@
                 projects.forEach(t => t.style.filter = 'blur(0) grayscale(0)');
             });
         });
+        observer.observe(section);
     });
 
 </script>
@@ -62,7 +66,7 @@ h1 {
 }
 </style>
 
-<section id="projects">
+<section id="projects" bind:this={section}>
     <div class="container">
         <h1>Some of my latest work</h1>
         <div class="projects">

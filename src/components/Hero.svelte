@@ -1,6 +1,7 @@
 <script>
 import {onMount} from 'svelte';
 import Button from './Button.svelte';
+import {observer, setObserver} from '../store.js';
 
 let scrollY, header, div;
 
@@ -12,6 +13,8 @@ onMount(() => {
 			header.style.backgroundPosition = "left, 50% "+(scrollY-40)+"px, right";
 		}
 	}
+	setObserver();
+	observer.observe(header);
 });
 
 $: addY(scrollY);

@@ -1,5 +1,6 @@
 <script>
 import {onMount} from 'svelte';
+import {menuLinks} from '../store.js';
 
 let jumpTo = () => {}
 let active = false;
@@ -83,10 +84,10 @@ li:first-child {
         {:else}
             <li on:click={() => active=true}><i class="fas fa-bars"></i></li>
         {/if}
-        <li class:mobile-hidden={!active} on:click={() => jumpTo("hero")}>Home</li>
-        <li class:mobile-hidden={!active} on:click={() => jumpTo("about")}>About</li>
-        <li class:mobile-hidden={!active} on:click={() => jumpTo("tools")}>Tools</li>
-        <li class:mobile-hidden={!active} on:click={() => jumpTo("projects")}>Projects</li>
-        <li class:mobile-hidden={!active} on:click={() => jumpTo("contact")}>Contact</li>
+        <li bind:this={menuLinks[0]} class:mobile-hidden={!active} on:click={() => jumpTo("hero")}>Home</li>
+        <li bind:this={menuLinks[1]} class:mobile-hidden={!active} on:click={() => jumpTo("about")}>About</li>
+        <li bind:this={menuLinks[2]} class:mobile-hidden={!active} on:click={() => jumpTo("tools")}>Tools</li>
+        <li bind:this={menuLinks[3]} class:mobile-hidden={!active} on:click={() => jumpTo("projects")}>Projects</li>
+        <li bind:this={menuLinks[4]} class:mobile-hidden={!active} on:click={() => jumpTo("contact")}>Contact</li>
     </ul>
 </nav>

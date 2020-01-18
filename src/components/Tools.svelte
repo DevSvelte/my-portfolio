@@ -2,6 +2,14 @@
     import Tool from '../components/Tools/Tool.svelte';
     import Tools from '../components/Tools/Catagory.svelte';
     import Button from './Button.svelte';
+    import {onMount} from 'svelte';
+    import {observer} from '../store.js';
+
+    let section;
+
+    onMount(() => {
+        observer.observe(section);
+    });
 
 </script>
 
@@ -29,7 +37,7 @@ h1 {
 }
 </style>
 
-<section id="tools">
+<section id="tools" bind:this={section}>
     <div class="container">
         <h1>What tools do I use?</h1>
         <Tools title="Base Technologies">

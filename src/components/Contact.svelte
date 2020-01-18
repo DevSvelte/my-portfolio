@@ -1,5 +1,13 @@
 <script>
     import Button from './Button.svelte';
+    import {onMount} from 'svelte';
+    import {observer} from '../store.js';
+
+    let section;
+
+    onMount(() => {
+        observer.observe(section);
+    })
 </script>
 
 <style>
@@ -55,7 +63,7 @@ h1 {
 }
 </style>
 
-<section id="contact">
+<section id="contact" bind:this={section}>
     <div class="container">
         <h1>Contact</h1>
         <div class="form">
