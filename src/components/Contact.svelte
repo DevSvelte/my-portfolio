@@ -8,7 +8,7 @@ section {
     display: flex;
     justify-content: center;
     background: #d5d5d5;
-    clip-path: polygon(0 0, 50% 3%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 50% 1.5vw, 100% 0, 100% 100%, 0 100%);
 }
 .container {
     padding-top: 2rem;
