@@ -1,0 +1,14 @@
+{
+    "build": {
+        "env": {
+            "email": "SENDER_EMAIL_ADDRESS",
+            "password": "SENDER_EMAIL_PASSWORD",
+            "to": "RECIVER_EMAIL_ADDRESS"
+        }
+    },
+    "env": {
+        "email": "SENDER_EMAIL_ADDRESS",
+        "password": "SENDER_EMAIL_PASSWORD",
+        "to": "RECIVER_EMAIL_ADDRESS"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "name": "portfolio-v2",
+    "dependencies": {
+        "nodemailer": "^6.4.2"
+    }
+}
