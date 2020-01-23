@@ -4,7 +4,7 @@
     <app-navbar/>
     <header id="header">
         <div class="container">
-            <img id="image" class="profile-image" hidden="hidden" style="opacity: 0;" src="img/icons/android-icon-144x144.png" alt="">
+            <img id="image" class="profile-image" style="opacity: 0;" src="https://avatars0.githubusercontent.com/u/47381044" alt="">
             <h1 class="title" style="opacity: 1">SAMEER TARIQ</h1>
             <h1 hidden="hidden">WEB DEVELOPER &amp; DESIGNER</h1>
             <a href="#my-skills" class="next">
@@ -19,11 +19,9 @@ import AppNavbar from '@/components/AppNavbar.vue';
 
 export default {
     components: { AppNavbar },
-    data: () => ({
-        title : 'Hy there!'
-    }),
+    data: () => ({}),
     methods: {
-        mouseMove(e){
+        mouseMove(){
             // let header = document.getElementById('header');
             // let val = e.screenX/window.innerWidth;
             // header.style.setProperty('--x', `${100*val}%`);
@@ -66,8 +64,8 @@ export default {
     border-radius: 1%;
     margin-bottom: 10px;
     width: 200px;
-    mix-blend-mode: darken;
-    opacity: 0;
+    border-radius: 50%;
+    /* mix-blend-mode: darken; */
     animation: reveal 2s forwards;
     /* filter: hue-rotate(var(--hue, 30deg)); */
 }
@@ -88,6 +86,7 @@ export default {
     margin: 20px auto;
     font-size: 25px;
     color: #ffffff77;
+    margin-top: 20rem;
 }
 @keyframes fadein {
     from { opacity:0 }
