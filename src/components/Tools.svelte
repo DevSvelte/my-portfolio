@@ -40,27 +40,27 @@ h1 {
 <section id="tools" bind:this={section}>
     <div class="container">
         <h1>What tools do I use?</h1>
-        <Tools title="Base Technologies">
+        <Tools title="Core Technologies">
             <Tool name="HTML" icon="b fa-html5" value="90" />
             <Tool name="CSS" icon="b fa-css3" value="85" />
             <Tool name="JavaScript" icon="b fa-js" value="80" />
         </Tools>
         <Tools title="Frontend">
-            <Tool name="VueJS" icon="b fa-vuejs" value="80" />
-            <Tool name="Svelte" icon="s fa-code" value="70" />
+            <Tool name="Svelte" icon="s fa-code" value="90" />
+            <Tool name="Sapper" icon="s fa-code" value="85" />
         </Tools>
         <Tools title="Backend">
+            <Tool name="Sapper" icon="b fa-node" value="85" />
+            <Tool name="Hasura" icon="b fa-node" value="65" />
             <Tool name="ExpressJS" icon="b fa-node" value="85" />
-            <Tool name="SocketIO" icon="b fa-node" value="65" />
-            <Tool name="PHP" icon="b fa-php" value="70" />
         </Tools>
         <Tools title="Databases">
             <Tool name="MongoDB" icon="s fa-database" value="75" />
-            <Tool name="MySQL" icon="s fa-database" value="55" />
+            <Tool name="Postgress" icon="s fa-database" value="55" />
         </Tools>
         <Tools title="Deploy">
-            <Tool name="Zeit Now" icon="s fa-server" value="89" />
-            <Tool name="Netlify" icon="s fa-server" value="65" />
+            <Tool name="Vercel" icon="s fa-server" value="85" />
+            <Tool name="Netlify" icon="s fa-server" value="85" />
             <Tool name="Heroku" icon="s fa-server" value="75" />
         </Tools>
         <Tools title="Other">
