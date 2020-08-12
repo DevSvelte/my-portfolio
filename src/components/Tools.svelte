@@ -1,76 +1,81 @@
 <script>
-    import Tool from '../components/Tools/Tool.svelte';
-    import Tools from '../components/Tools/Catagory.svelte';
-    import Button from './Button.svelte';
-    import {onMount} from 'svelte';
-    import {observer} from '../store.js';
+  import Tool from "../components/Tools/Tool.svelte";
+  import Tools from "../components/Tools/Catagory.svelte";
+  import Button from "./Button.svelte";
+  import { onMount } from "svelte";
+  import { observer } from "../store.js";
 
-    let section;
+  let section;
+  let tools = [];
+  const query = `{
+  portfolio_tools_category(order_by: {id: asc}) {
+    title
+    tools(order_by: {tool_id: asc}) {
+      name
+      value
+      icon
+    }
+  }
+}`;
 
-    onMount(() => {
-        observer.observe(section);
+  onMount(() => {
+    observer.observe(section);
+    fetchTools();
+  });
+
+  async function fetchTools() {
+    let result = await fetch("https://imsamtar.herokuapp.com/v1/graphql", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({
+        query,
+      }),
     });
-
+    result = await result.json();
+    if (result) {
+      tools = result.data.portfolio_tools_category;
+    }
+  }
 </script>
 
 <style>
-section {
+  section {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     background: #d5d5d5;
-}
-h1 {
+  }
+  h1 {
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 0.1rem;
-}
-.container {
+  }
+  .container {
     padding: 3rem 0;
     width: 100%;
     font-family: cursive, sans-serif;
-}
-@media (min-width: 1025px){
+  }
+  @media (min-width: 1025px) {
     .container {
-        width: 85%;
+      width: 85%;
     }
-}
+  }
 </style>
 
 <section id="tools" bind:this={section}>
-    <div class="container">
-        <h1>What tools do I use?</h1>
-        <Tools title="Core Technologies">
-            <Tool name="HTML" icon="b fa-html5" value="90" />
-            <Tool name="CSS" icon="b fa-css3" value="85" />
-            <Tool name="JavaScript" icon="b fa-js" value="80" />
-        </Tools>
-        <Tools title="Frontend">
-            <Tool name="Svelte" icon="s fa-code" value="90" />
-            <Tool name="Sapper" icon="s fa-code" value="85" />
-        </Tools>
-        <Tools title="Backend">
-            <Tool name="Sapper" icon="b fa-node" value="85" />
-            <Tool name="Hasura" icon="b fa-node" value="65" />
-            <Tool name="ExpressJS" icon="b fa-node" value="85" />
-        </Tools>
-        <Tools title="Databases">
-            <Tool name="MongoDB" icon="s fa-database" value="75" />
-            <Tool name="Postgress" icon="s fa-database" value="55" />
-        </Tools>
-        <Tools title="Deploy">
-            <Tool name="Vercel" icon="s fa-server" value="85" />
-            <Tool name="Netlify" icon="s fa-server" value="85" />
-            <Tool name="Heroku" icon="s fa-server" value="75" />
-        </Tools>
-        <Tools title="Other">
-            <Tool name="Git" icon="b fa-git" value="76" />
-            <Tool name="Github" icon="b fa-github" value="80" />
-            <Tool name="VS Code" icon="s fa-code" value="65" />
-            <Tool name="Linux" icon="b fa-linux" value="70" />
-        </Tools>
-        <div style="text-align: center;">
-            <Button target="projects" text="Next" color="#222222" />
-        </div>
+  <div class="container">
+    <h1>What tools do I use?</h1>
+    {#each tools as category}
+      <Tools title={category.title}>
+        {#each category.tools as tool}
+          <Tool name={tool.name} icon={tool.icon} value={tool.value} />
+        {/each}
+      </Tools>
+    {/each}
+    <div style="text-align: center;">
+      <Button target="projects" text="Next" color="#222222" />
     </div>
+  </div>
 </section>
